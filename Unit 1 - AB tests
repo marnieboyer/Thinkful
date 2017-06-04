@@ -1,7 +1,7 @@
-Does a new supplement help people sleep better?
-Will new uniforms help a gym's business?
-Will a new homepage improve my online exotic pet rental business?
-If I put 'please read' in the email subject will more people read my emails?
+A. Does a new supplement help people sleep better?
+B. Will new uniforms help a gym's business?
+C. Will a new homepage improve my online exotic pet rental business?
+D. If I put 'please read' in the email subject will more people read my emails?
 
 Including:
 1. Two versions of something whose effects will be compared. 
@@ -9,3 +9,37 @@ Including:
 3. A hypothesis. 
 4. Outcome(s) of interest.
 5. Other measured variables.
+
+A. Does a new supplement help people sleep better?
+1. I would test this by providing one group the new supplement and the other group a placebo.  Note, if this is a "new supplement", 
+I may also want to test it against an "old supplement" which would determine if "new" is better than "old". I am using a placebo to
+ensure people don't know which group they are in and therefore bias the samples.
+2. I would recruit people for my study and split them randomly into two groups.
+3. My hypothesis is that the new supplement will help people sleep better than the placebo.
+4. Outcome would be number of hours of sleep, net of any restless times (as measured by a FitBit device)
+5.Other measured variables would be: continuous hours of sleep, number of times restless, time to fall asleep, reported side effects, 
+self-reported feeling of restfulness
+
+B. Will new uniforms help a gym's business?
+1. I would test this by having the people at the gym wear uniforms instead of their own clothes.
+2. Have them wear the uniforms for a month,
+3. Sales will be better with the uniforms.
+4. Gym memberships - compared to last year's sales, accounting for recent trends (i.e., if sales were up 10% year over year this year, 
+I would use that 10% increase as the baseline)
+5. Other revenue, renewals, mix of membership types sold
+
+C. Will a new homepage improve my online exotic pet rental business?
+1. New homepage vs. old homepage
+2. Divide visitors randomly by displaying each homepage to them.  Use a tool like optimizely, for example.
+3. The new homepage will improve sales.
+4. Rentals of exotic pets.
+5. Repeat visitors, time on site, bounce rate, interest forms, emails collected
+
+D. If I put 'please read' in the email subject will more people read my emails?
+1. One version of subject with 'please read' and one version with all of the same words except no "please read"
+2. Randomly select recipients using ESP's functionality.
+3. 'Please read' will increase open rate of email.
+4. Open rate
+5. Click rate, unsubscribe rate, number of times open
+
+  
