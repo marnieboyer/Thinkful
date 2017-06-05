@@ -1,0 +1,27 @@
+For each of the following scenarios, call out the potential biases in the proposed experiment. 
+Do your best to try to discover not only the bias, but the initial design. There is plenty of room for interpretation here, 
+so make sure to state what assumptions you're making.
+
+1. You're testing advertising emails for a bathing suit company and you test one version of the email in February and the other in May.
+2. You open a clinic to treat anxiety and find that the people who visit show a higher rate of anxiety than the general population.
+3. You launch a new ad billboard based campaign and see an increase in website visits in the first week.
+4. You launch a loyalty program but see no change in visits in the first week.
+
+
+1. Contextual bias in the delivery of the emails in two different time periods. Most people are not looking for swim suits in Feb.
+
+2. Bias in assignment to conditions because the people who come to the clinic are pre-disposed to the symptoms of anxiety.
+
+3. I think a better way to determine this is to see if website visits increase in the area(s) that the billboard went up. If the 
+billboard was in San Diego but website visits increased in San Antonio, then there is no relationship.  You would want to better
+design the experiment to test a more similar set of factors.  The increase in website visitors could be due to other factors such as an 
+email going out, a news story about your company, more search/display paid advertising, a magazine ad, etc.  This test is inconclusive
+without more information (contextual bias may be at play here, depending on the situation).
+
+4. For this, I don't know how the loyalty program was designed and how it was "launched" so it's hard to say. And is this visits to the 
+website or your retail store? Maybe the "visits" metric was website but the loyalty program was launched in the retail locations.  Also,
+maybe you sent the loyalty program to people who already visit the store or website a lot so they didn't increase. Also, maybe you sent the 
+loyalty program to people who very rarely visit the store or website, so an increase in their visit would have only a small impact in 
+the over visits and that may be offset by another group's reduction in visits. Perhaps there was a weather event? Maybe one week is not a
+long enough time (did you email or send this by postal mail?) The experiment should be designed to test the loyalty program on one group
+and then nothing (control) on another group where the groups are similar in characteristics.
