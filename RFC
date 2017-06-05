@@ -1,0 +1,20 @@
+When people install the Happy Days Fitness Tracker app, they are asked to "opt in" to a data collection scheme where their level of physical activity data is automatically sent to the company for product research purposes. During your interview with the company, they tell you that the app is very effective because after installing the app, the data show that people's activity levels rise steadily.
+
+The problem
+This is where you define the question or problem, justify why the problem should be studied, and review what we already know about the problem. For example:
+
+Need to know if the app is effective. This is important because we have to focus the developers working on the product towards improvements and new features.  We want to understand the impact of advertising (free app) vs. a paid app without advertising. We also need to show our venture capitalist team some progress.
+
+The potential solution
+Here you propose a hypothesis (potential explanation) to be tested. For example:
+
+We believe making the app ad free will improve the effectiveness of the app and more people will stick with it and upgrade to premium.
+
+The method of testing the solution
+Describe the design of the experiment, the analysis plan, and set benchmarks:
+
+Randomly select people who download the app and monitor their usage, churn and upgrades for the next two months. The variable of interest is the upgrades between people who get the ad free version and the ad version.  This is an A/B manipulation where ads appear and not appear.
+
+We will compute the upgrade rate for two months before the study and compare it to the upgrade rate in ad and non-ad groups for two months during the study.
+
+If upgrade rate in the next two months increases by 10% among the non-ad group (vs. the historical average), conclude that having no ads is effective and change the app download for all future users. If upgrade rate in the next two months increases among non-ad users, but by less than one standard deviation, observe for two more months before deciding. If the upgrade rate does not increase in two months, we will not launch an ad-free version and will send out an update to the experimental users that includes ads again.
