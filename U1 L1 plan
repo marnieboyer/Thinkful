@@ -1,0 +1,22 @@
+Below we have a series of questions for you to translate into a technical plan. For each question, describe how you would make it testable and translate it from a general question into something statistically rigorous. Write your answers down in a shareable document and submit the link below.
+
+You work at an e-commerce company that sells three goods: widgets, doodads, and fizzbangs. The head of advertising asks you which they should feature in their new advertising campaign. You have data on individual visitors' sessions (activity on a website, pageviews, and purchases, as well as if those users converted from an advertisement for that session. You also have the cost and price information for the goods.
+
+I would calculate the value of the sale of each of the three goods by calculating the margin for each.  
+
+widgets_value = widget_price - widget_cost
+doodads_value = doodads_price - doodads_cost
+fizzbangs_value = fizzbangs_price - fizzbangs_cost
+
+I would calculate the conversion data for each: purchases per product divided by the pageviews for each product
+i.e.
+widgets_conversion_rate = widgets_purchases/widgets_page_views 
+same for doodads
+same for fizzbangs
+
+I would determine the best product to feature on the site by determining which product would provide the highest value to the company. This would be calculated by the conversion_rate * value.
+
+
+You work at a web design company that offers to build websites for clients. Signups have slowed, and you are tasked with finding out why. The onboarding funnel has three steps: email and password signup, plan choice, and payment. On a user level you have information on what steps they have completed as well as timestamps for all of those events for the past 3 years. You also have information on marketing spend on a weekly level.
+You work at a hotel website and currently the website ranks search results by price. For simplicity's sake, let's say it's a website for one city with 100 hotels. You are tasked with proposing a better ranking system. You have session information, price information for the hotels, and whether each hotel is currently available.
+You work at a social network, and the management is worried about churn (users stopping using the product). You are tasked with finding out if their churn is atypical. You have three years of data for users with an entry for every time they've logged in, including the timestamp and length of session.
