@@ -18,5 +18,16 @@ I would determine the best product to feature on the site by determining which p
 
 
 You work at a web design company that offers to build websites for clients. Signups have slowed, and you are tasked with finding out why. The onboarding funnel has three steps: email and password signup, plan choice, and payment. On a user level you have information on what steps they have completed as well as timestamps for all of those events for the past 3 years. You also have information on marketing spend on a weekly level.
+
+I would figure out if there is a drop off in the onboarding funnel and if so, where. I would also see how spend correlates with sign ups.
+
 You work at a hotel website and currently the website ranks search results by price. For simplicity's sake, let's say it's a website for one city with 100 hotels. You are tasked with proposing a better ranking system. You have session information, price information for the hotels, and whether each hotel is currently available.
+
+I would propose that we start with whether a hotel is available (cannot sell if it's not!) Then I would probably present hotels that had the most past sessions (means it is more popular) and then balance the price (not sort high to low or low to high) but I would interpret what the customer is comfortable with in terms of price based on their previous history (if available.)
+
 You work at a social network, and the management is worried about churn (users stopping using the product). You are tasked with finding out if their churn is atypical. You have three years of data for users with an entry for every time they've logged in, including the timestamp and length of session.
+
+I would calculate churn levels by tenure cohort (how long they have been customers). I would also determine if people who stay on teh site longer in their session churn less, so I could improve that with some of our lower duration visitors.
+
+I would compare this over time so I know if churn is up or down.
+
