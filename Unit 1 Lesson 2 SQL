@@ -1,0 +1,11 @@
+select  trip_id, duration from  trips
+order by duration desc
+limit 5
+
+select * from stations
+where station_id = 84
+
+
+select *
+from weather where events = 'Rain'
+and zip = 94301
