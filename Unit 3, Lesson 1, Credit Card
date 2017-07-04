@@ -1,0 +1,11 @@
+DRILL:¶
+Let's say we work at a credit card company and we're trying to figure out if people are going to pay their bills on time. We have everyone's purchases, split into four main categories: groceries, dining out, utilities, and entertainment. What are some ways you might use KNN to create this model? What aspects of KNN would be useful? Write up your thoughts in submit a link below.
+
+You want to use KNN to classify a customer into people who pay on time and those who do not.  You also could use it to determine people who pay vs. those who do not - if you had that information.
+
+You could normalize the four categories so they add up to 1 (% of spend). You could also rescale the 4 variables between 0 and 1 so every category is between the min and the max.  You could use Z-scores to determine how far each category spend is from the mean. 
+
+You could also use KNN to categorize the spend - like groceries + utilities are more basic needs while the others are more luxuries.
+
+You may also want to know the proabibility (based on the vote count x/k or y/k where x = probability they will pay and y is probability they won't pay (or 1-x)).  You also could weight the categories. So for each k you choose to use, you will assign a weight that favors the category that is closest. So, if k is 5 and 3 of the closest 5 are "will not pay on time" and 2 are "will pay on time", it's possible that the 2 "will pay on time" are so much closer than the next 3 "will not pay in time", that the model would choose "will pay on time" due to the weighting.
+
