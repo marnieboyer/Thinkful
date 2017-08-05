@@ -1,0 +1,80 @@
+You now have a fairly substantial starting toolbox of supervised learning methods that you can use to tackle a host of exciting problems. To make sure all of these ideas are organized in your mind, please go through the list of problems below. For each, identify which supervised learning method(s) would be best for addressing that particular problem. Explain your reasoning and discuss your answers with your mentor.
+
+1. Predict the running times of prospective Olympic sprinters using data from the last 20 Olympics.
+ - Linear Regression
+ I think linear regression is a good choice here because it's a pretty high n (lots of runners over the last 20 years) and likely few features which should not be corellated. Of course the times are linear too.
+
+2. You have more features (columns) than rows in your dataset.
+ - LASSO regression, random forest, or SVM
+ These models work best when there is low n and high number of features. LASSO will tell us which features can be dropped which may be useful for our needs.
+
+3. Identify the most important characteristic predicting likelihood of being jailed before age 20.
+ - Random Forest with the feature importance
+ - Gradient Boosting with the feature importance
+ The key here is being able to identify the characteristic so I picked either of these two models because we can find the most important feature.  Also, depending on what kind of dataset this is, there may be a class imbalance since a very low % of people are jailed before age 20 so you may want to do some over or under-sampling techniques, use ensemble models and/or boosting.
+
+4. Implement a filter to “highlight” emails that might be important to the recipient
+- Naive Bayes
+NB is known for its ability to find fraud or spam. It will give low false positive spam detection rates that are generally acceptable to users.
+
+5. You have 1000+ features.
+- LASSO regression, random forest, or SVM or PCA plus another model.
+Need a model that helps reduce the number of features and doesn't rely on the features not being corellated because its possible that some of the 1000+ features are.
+
+6. Predict whether someone who adds items to their cart on a website will purchase the items.
+- Logistic regression
+There's probably a lot of options here that would work. You could perform logistic regression with a binary classifier for buyers/non-buyers.  KNN, LASSO, RIDGE, Decision trees - they all seem to fit here...
+
+7. Your dataset dimensions are 982400 x 500
+- LASSO or Ridge regression, random forest, or SVM 
+
+8. Identify faces in an image.
+- SVM or KNN
+
+9. Predict which of three flavors of ice cream will be most popular with boys vs girls.
+- multinomial logistic regression
+
+NOTES:
+Models:
+- Naive Bayes (learning via probability)
+    - assumes independence among variables
+    - fast
+    - works well with sentiment analysis, spam filtering
+- Linear Regression (single or Multivariable) (learning via errors)
+    - assumes linear relationship with the outcome
+    - errors have a normal distribution
+    - homoscedasticity
+    - low or no correlation among features
+    - "cost" is the errors
+- KNN (learning through similarity)
+    - similarity model
+    - classification or regression (averages the votes, or weighted-averages the votes)
+- Decision Trees (learning from questions) - classification or regression
+    - pro: easy to represent model visually
+    - pro: can handle varied types of data
+    - pro: feature selection is part of the model
+    - pro: easy to use with little data prep
+    - con: randomly created each time
+    - con: incredibly prone to overfitting
+    - con: biased towards the dominant class, balanced data needed
+    - outcome is binary, inputs are categorical
+- Random Forest [ensemble model]
+    - black box
+    - low variance and high accuracy
+- Logistic Regression/Classifier [multinomial logistic regression - more than binary]
+    - dependent variable is categorical/binary
+- Ridge Regression/Classifier
+    - "costs" is based on large coefficients, squares
+    - good when lots of correlation among features
+- Lasso Regression/Classifier
+    - "costs" is based on large coefficients, absolute value
+    - good when there are lots of predictors
+- Linear SVM/Classifier/clustering
+    - flexible
+    - great visual explanatory power (linear)
+    - accurate (kernel smoothing)
+    - clustering
+    - control the specificity of training (regression)
+    - does many different things very well
+ Gradient Boost - classifier/regression   
+    
