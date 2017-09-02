@@ -1,0 +1,17 @@
+For each of these scenarios decide if you could use supervised or unsupervised techniques, or both!
+
+Define the likelihood that an individual will contract a specific disease
+Supervised
+
+Translate a set of images into variables for modeling
+Unsupervised
+
+An ecommerce company wants to identify power users
+Unsupervised
+Could be supervised if you pre-defined power users and wanted to find similar people
+
+That same company wants to see shopping patterns in users
+Unsupervised
+
+You want to reduce the number of variables inputting into your random forest model
+Unsupervised
