@@ -9,3 +9,4 @@ FUNCTIONS_ONLY - as the name suggests, has the functions I use in MAIN v2
 
 SCRAPE GOOGLE IMAGES -  scrapes/downloads images of celebrities' faces from Google and storing to my PC.
 
+MODELS_GRAVEYARD - other classifier models I tried
